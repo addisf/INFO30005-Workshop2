@@ -1,6 +1,27 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+.linkBar {
+    background-color: #DDD;
+    margin: 0;
+    padding: 15px;
+    text-align: center;
+    width: 40%;
+}
+
 a {
     color: black;
     text-decoration: none;
+}
+
+a:hover {
+    text-decoration: underline;
+}
+
+h1 {
+    margin: 10px;
 }
 
 .rainbow {
@@ -12,9 +33,9 @@ a {
 }
 
 @keyframes changing-colors {
-    0% {color: red; font-family: "Comic Sans MS", cursive, sans-serif;}
-    25% {color: yellow; font-family: Impact, Charcoal, sans-serif;}
-    50% {color: blue; font-family: "Comic Sans MS", cursive, sans-serif;}
-    75% {color: green; font-family: Impact, Charcoal, sans-serif;}
-    100% {color: purple; font-family: "Comic Sans MS", cursive, sans-serif;}
+    0% {color: red;}
+    25% {color: yellow;}
+    50% {color: blue;}
+    75% {color: green;}
+    100% {color: purple;}
 }
